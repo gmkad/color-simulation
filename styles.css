@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.image-container img {
+    width: 300px;
+    height: auto;
+    border: 3px solid #ccc;
+    margin-bottom: 20px;
+}
+
+input[type="color"] {
+    margin-bottom: 10px;
+}
