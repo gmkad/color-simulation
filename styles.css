@@ -1,19 +1,18 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+/* styles.css */
+.base-layer {
+    background-image: url('images/base.png'); /* ベースレイヤー画像 */
+    height: 500px; /* 高さ設定 */
+    width: 100%; /* 幅設定 */
 }
 
-.image-container img {
-    width: 300px;
-    height: auto;
-    border: 3px solid #ccc;
-    margin-bottom: 20px;
+.wall-layer {
+    background-image: url('images/wall.png'); /* 外壁レイヤー画像 */
+    height: 500px; /* 高さ設定 */
+    width: 100%; /* 幅設定 */
 }
 
-input[type="color"] {
-    margin-bottom: 10px;
+.window-layer {
+    background-image: url('images/obj.png'); /* 窓レイヤー画像 */
+    height: 500px; /* 高さ設定 */
+    width: 100%; /* 幅設定 */
 }
